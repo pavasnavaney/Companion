@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:background="@color/greyerback"
+        android:layout_height="10dp"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Turing Machine"
+            android:textSize="20sp"
+            android:layout_gravity="left|center"
+            android:gravity="left|center"
+            android:paddingLeft="15dp"
+            android:paddingTop="7dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDarkTab"
+            android:id="@+id/title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_height="60dp"
+           android:textColor="#FFFFFF"
+            android:typeface="normal"
+            android:text="Download Paper"
+            android:background="@drawable/red_button_background"
+            android:layout_weight="1"
+            android:id="@+id/downloadpaper" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:typeface="normal"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:padding="15dp"
+            android:textColor="#FFFFFF"
+            android:text="Download Solution"
+            android:background="@drawable/round_button_green"
+            android:id="@+id/downloadsolution" />
+    </LinearLayout>
+
+
+</LinearLayout>

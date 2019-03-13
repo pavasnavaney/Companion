@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pavasnavaney.companion" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Connection.MyApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".IntroSlider"
+            android:label="@string/app_name"
+            android:theme="@style/IntroTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainTheme" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.Drawer_Bs"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/BrownActionBar" >
+        </activity>
+        <activity
+            android:name=".IntroManager.Department_Selector"
+            android:label="@string/title_activity_department__selector"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".IntroManager.Department_List"
+            android:label="@string/title_activity_department__list"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.Drawer_English"
+            android:icon="@drawable/backbtn"
+            android:label="@string/title_activity_drawer__english"
+            android:screenOrientation="portrait"
+            android:theme="@style/PurpleActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.Drawer_fbl"
+            android:icon="@drawable/backbtn"
+            android:label="@string/title_activity_drawer_fbl"
+            android:screenOrientation="portrait"
+            android:theme="@style/GreenActionBar" >
+        </activity>
+        <activity
+            android:name=".Main.Tabs"
+            android:label="@string/title_activity_tabs"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.Drawer"
+            android:label="@string/title_activity_drawer"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.DrawerFBL"
+            android:label="@string/title_activity_drawer_fbl"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.Drawer_Tutorials"
+            android:icon="@drawable/backbtn"
+            android:label="@string/title_activity_drawer__tutorials"
+            android:theme="@style/AmberActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.Tutpoint"
+            android:icon="@drawable/backbtn"
+            android:label="@string/title_activity_tutpoint"
+            android:theme="@style/AmberActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.TipActivity"
+            android:icon="@drawable/backbtn"
+            android:label="@string/title_activity_tip"
+            android:screenOrientation="portrait"
+            android:theme="@style/PurpleActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.TipExpanded"
+            android:icon="@drawable/backbtn"
+            android:label="@string/title_activity_tip_expanded"
+            android:theme="@style/PurpleActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.Department_Changer"
+            android:label="@string/title_activity_department__changer" >
+        </activity>
+        <activity
+            android:name=".DrawerItems.Contact_Us"
+            android:label="@string/title_activity_contact__us"
+            android:screenOrientation="portrait"
+            android:theme="@style/BrownActionBar" >
+        </activity>
+        <activity
+            android:name=".Main.Splash"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+
+        <receiver
+            android:name=".Connection.ConnectivityListener"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Companion</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="register">Registration</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="btn_continue">Continue</string>
+    <string name="err_msg_name">Enter Your Full Name</string>
+    <string name="err_msg_email">Enter Valid Email Address</string>
+    <string name="err_msg_phone">Enter Correct Phone Number</string>
+    <string name="select_dept">Select Your Department</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="hint_phone">Phone</string>
+    <string name="slide_1_title">Notes!</string>
+    <string name="slide_1_desc">Explore Notes Of All Those Hard Subjects , Short And Crisp!</string>
+
+    <string name="slide_2_title">Question Papers!</string>
+    <string name="slide_2_desc">Access All The Previous Year Question Papers , Just Where You Want Them , In Your Phone!</string>
+
+    <string name="slide_3_title">Tips!</string>
+    <string name="slide_3_desc">Just Because Some Tips Can Change The Game!</string>
+
+    <string name="slide_4_title">Solved Papers!</string>
+    <string name="slide_4_desc">There Is Nothing Better Than Knowing The Pattern And Important Examination Questions , Specially When They Are Solved</string>
+
+    <string name="slide_5_title">Books!</string>
+    <string name="slide_5_desc">Now No More Buying Or Renting , As We Bring You The Material You Need The Most , Yes Books!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_department__selector">Department_Selector</string>
+    <string name="title_activity_department__list">Department_List</string>
+    <string name="title_activity_drawer__english">Drawer_English</string>
+    <string name="title_activity_drawer_fbl">Drawer_fbl</string>
+    <string name="title_activity_tabs">Tabs</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="title_activity_drawer__tutorials">Drawer_Tutorials</string>
+    <string name="title_activity_tutpoint">Tutpoint</string>
+    <string name="browse_title"><![CDATA[Videos by Your Company]]></string>
+    <string name="related_movies">Related Videos</string>
+    <string name="vertical_grid_title"><![CDATA[Vertical Video Grid]]></string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="init_text">00:00</string>
+    <string name="play_pause_description">Play Pause Button</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="no_video_found">No video was found</string>
+    <string name="about_app">About DemoCast Player</string>
+    <string name="version">Version: %1$s</string>
+    <string name="popular_header">Popular Videos</string>
+    <string name="preferences">PREFERENCES</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+    <string name="should_start">shouldStart</string>
+    <string name="start_position">startPosition</string>
+    <string name="search_results">Search Results</string>
+
+    <!-- Error messages -->
+    <string name="video_error_media_load_timeout">Media loading timed out</string>
+    <string name="video_error_server_inaccessible">Media server was not reachable</string>
+    <string name="video_error_unknown_error">Failed to load video</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="oops">Oops</string>
+    <string name="title_activity_tip">TipActivity</string>
+    <string name="title_activity_tip_expanded">TipExpanded</string>
+    <string name="title_activity_department__changer">Department_Changer</string>
+    <string name="title_activity_contact__us">Contact_Us</string>
+    <string name="title_activity_splash">Splash</string>
+
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/greyback">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar_brown">
+    </include>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact:"
+                    android:textColor="@color/brownbar"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/textView5" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/brownbar"
+                    android:textSize="24sp"
+                    android:background="#FFFFFF"
+                    android:textStyle="bold"
+                    android:gravity="center|left"
+                    android:drawableLeft="@drawable/call"
+                    android:text="Call Us"
+                    android:id="@+id/call" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#000000"></View>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/brownbar"
+                    android:textSize="24sp"
+
+                    android:background="#FFFFFF"
+                    android:textStyle="bold"
+                    android:gravity="center|left"
+                    android:drawableLeft="@drawable/whatsapp"
+                    android:text="Text Us"
+                    android:id="@+id/whatsapp" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.7dp"
+                    android:background="#000000"></View>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
